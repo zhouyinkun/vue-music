@@ -5,6 +5,7 @@ import store from './store'
 
 Vue.config.productionTip = false
 
+<<<<<<< HEAD
 import axios from 'axios'
 Vue.prototype.axios = axios;
 
@@ -25,6 +26,8 @@ Vue.use(VueLazyload, {
 Vue.use(VueAwesomeSwiper, /* { default global options } */)
 
 
+=======
+>>>>>>> 52706da33b5ff74aa2de99384cbf0a450a2ce3a8
 new Vue({
   router,
   store,
